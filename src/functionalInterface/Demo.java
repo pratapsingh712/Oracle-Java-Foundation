@@ -11,11 +11,13 @@ public class Demo  {
 
         //A obj = new A(); can not create object of interface
 
-        A obj = new A(){
-            public void show(){
-                System.out.println("Inside show method :");
-            }
-        };
+//        A obj = new A(){
+//            public void show(){
+//                System.out.println("Inside show method :");
+//            }
+//        };
+
+        A obj = () -> System.out.println("Inside show method :");
 
         obj.show();
     }
