@@ -12,5 +12,7 @@ public class BufferedReaderDemo {
 
         int num = Integer.parseInt(bf.readLine());
         System.out.println(num);
+
+        bf.close();
     }
 }
