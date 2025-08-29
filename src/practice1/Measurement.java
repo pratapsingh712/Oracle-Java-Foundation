@@ -1,3 +1,5 @@
+package practice1;
+
 public class Measurement {
 
     final String[] SI_UNITS = {"s", "m", "kg", "A", "K", "mol", "cd"};

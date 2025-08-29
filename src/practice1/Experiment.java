@@ -1,3 +1,5 @@
+package practice1;
+
 public class Experiment {
 
     String summary;
