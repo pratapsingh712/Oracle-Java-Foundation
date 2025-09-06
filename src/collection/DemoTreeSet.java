@@ -12,7 +12,7 @@ public class DemoTreeSet {
         numbs.add(62);
         numbs.add(54);
         numbs.add(82);
-        numbs.add(21);
+        numbs.add(43);
 
         for(int n : numbs){
             System.out.println(n);
